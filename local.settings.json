@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "TenantId":"",
+    "AADclientId":"",
+    "AADClientSecret":"",
+    "SubscriptionId":"",
+    "ResourceGroupName":"",
+    "DnsZoneName":""
+
+
+  }
+}
