@@ -43,6 +43,9 @@ namespace Company.Function
             string ip = req.Query["IP"];
             string host=req.Query["HOST"];
 
+            //get aa from aa.bb.cc
+            host=host.Split('.')[0];
+
 
              // Build the service credentials and DNS management client
             var serviceCreds = await ApplicationTokenProvider.LoginSilentAsync(tenantId, clientId, secret);
